@@ -58,7 +58,7 @@ go run src/consumer/consumer.go
 go run src/producer/producer.go
 ```
 
-If everything works fine, you will see the messages in Kafka Consumer window, and if you have formatted the log directories to current directory, you will see the tmp directory where we can see the partitions and log files which contains data
+If everything works fine, you will see the messages in Kafka Consumer window, and if you have formatted the log directories to current directory, you will see the tmp directory where you can see the partitions and log files which contains data
 
 Congratulations! You have successfully used Go client APIs to send and receive messages using Kafka broker.
 
